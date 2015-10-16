@@ -13,7 +13,7 @@ public class TestBowlingScoreCalculator {
 	//
 	BowlingGame bowlingGame = new BowlingGame();	
 	 	assertEquals(0,bowlingGame.score());
-	}	
+	}
 	
 	@Test
 	public void testPlayOneFrameOfGameSeeThatFrameIsAdded() {
