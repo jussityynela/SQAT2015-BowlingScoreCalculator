@@ -28,7 +28,7 @@ public class TestBowlingScoreCalculator {
 	public void testPlayTwoFrameWithOneSpareScore15() {
 	//
 		BowlingGame bowlingGame = new BowlingGame();
-		Frame frame = new Frame(10,0);
+		Frame frame = new Frame(5,5);
 		bowlingGame.addFrame(frame) ;
 		assertEquals(10,bowlingGame.score());	 
 	}

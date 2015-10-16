@@ -99,3 +99,4 @@ EditAction 1444986255775 TestBowlingScoreCalculator.java 881 3 10 3
 RefactoringAction 1444986264739 TestBowlingScoreCalculator.java RENAME testGetScoreAtTheBeginningOfTheGameScorZero()=>void testGetScoreAtTheBeginningOfTheGameScoreZero() METHOD
 RefactoringAction 1444986264747 TestBowlingScoreCalculator.java RENAME testPlayOneFrameOfGameSeeThatFrameIsAdded()=>void testPlayOneFrameOfGameScore() METHOD
 EditAction 1444986267014 TestBowlingScoreCalculator.java 869 3 10 3
+EditAction 1444986273044 TestBowlingScoreCalculator.java 868 3 10 3
