@@ -25,3 +25,4 @@ CompilationAction 1444985384885 BowlingGame.java
 RefactoringAction 1444985426224 BowlingGame.java ADD int sc FIELD
 EditAction 1444985427688 BowlingGame.java 662 5 3 0
 EditAction 1444985433830 BowlingGame.java 679 5 4 0
+EditAction 1444985438571 BowlingGame.java 683 5 4 0

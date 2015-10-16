@@ -27,7 +27,7 @@ public class BowlingGame {
 		{
 			frame.score();
 		}
-		return 0;
+		return score;
 	}
 	
 	public boolean isNextFrameBonus(){
