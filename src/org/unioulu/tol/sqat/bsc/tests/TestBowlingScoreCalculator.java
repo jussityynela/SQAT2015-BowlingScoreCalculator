@@ -61,7 +61,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testPlayFourFramesWithFirstTwoStrikeScore55() {
+	public void testPlayFourFramesWithFirstTwoStrikeScore50() {
 	//
 		BowlingGame bowlingGame = new BowlingGame();
 		Frame frame = new Frame(10,0);
@@ -72,7 +72,7 @@ public class TestBowlingScoreCalculator {
 		bowlingGame.addFrame(frame3);
 		Frame frame4 = new Frame(5,0);
 		bowlingGame.addFrame(frame4);
-		assertEquals(45,bowlingGame.score());	 
+		assertEquals(50,bowlingGame.score());	 
 	}
 	
 	@Test
