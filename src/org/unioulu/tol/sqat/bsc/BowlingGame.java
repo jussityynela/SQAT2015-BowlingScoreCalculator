@@ -31,7 +31,7 @@ public class BowlingGame {
 		return score;
 	}
 
-	private int calculateTheBonus(int i) {
+	private int calculateTheBonus(int i, Frame currentFrame) {
 		int bonus = 0;
 		if(i>0)
 		{ //if previous was spare add bonus from this throw
