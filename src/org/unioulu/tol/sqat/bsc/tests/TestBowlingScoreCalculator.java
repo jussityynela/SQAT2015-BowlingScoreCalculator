@@ -25,7 +25,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testPlayTwoFrameWithOneSpareScore15() {
+	public void testPlayTwoFrameWithOneSpareScore20() {
 	//
 		BowlingGame bowlingGame = new BowlingGame();
 		Frame frame = new Frame(5,5);
