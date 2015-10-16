@@ -336,3 +336,4 @@ EditAction 1444990234664 BowlingGame.java 1225 6 8 0
 UnitTestCaseAction 1444990237662 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444990237662 Rerun TestBowlingScoreCalculator (Failed Tests first) OK
 EditAction 1444990251887 BowlingGame.java 1223 6 8 0
+EditAction 1444990385866 BowlingGame.java 1223 6 8 0
