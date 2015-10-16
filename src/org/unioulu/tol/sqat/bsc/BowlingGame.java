@@ -19,6 +19,9 @@ public class BowlingGame {
 			if( frames.size() == 10)
 				frames.get(9).setLastFrame(true);
 		}
+		else if(isNextFrameBonus()){
+			
+		}
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
@@ -52,8 +55,8 @@ public class BowlingGame {
 	}
 	
 	public boolean isNextFrameBonus(){
-		if(frame,)
-			
+		//boolean isLast = false;
+		//for(Frame frame: frames)			
 		return false;
 	}
 }
