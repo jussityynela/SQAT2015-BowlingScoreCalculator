@@ -26,9 +26,9 @@ public class BowlingGame {
 		for(int i=0; i < frames.size(); i++)
 		{
 			score += frames.get(i).score();
-			//if previous was spare add bonus from this throw
+			
 			if(i>0)
-			{
+			{ //if previous was spare add bonus from this throw
 				Frame previous = frames.get(i-1);
 				if( previous.isSpare() )
 					score += previous.getFirstThrow();
