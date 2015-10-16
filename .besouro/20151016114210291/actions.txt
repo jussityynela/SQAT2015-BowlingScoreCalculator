@@ -121,3 +121,10 @@ CompilationAction 1444986410382 BowlingGame.java
 UnitTestCaseAction 1444986414117 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444986414118 TestBowlingScoreCalculator OK
 EditAction 1444986430813 TestBowlingScoreCalculator.java 936 3 12 3
+UnitTestCaseAction 1444986433088 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444986433088 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444986524673 Frame.java ADD Frame frame FIELD
+RefactoringAction 1444986525579 Frame.java REMOVE frame FIELD
+RefactoringAction 1444986528609 Frame.java ADD int secondThrow/2 FIELD
+RefactoringAction 1444986532672 Frame.java REMOVE secondThrow/2 FIELD
+EditAction 1444986661631 Frame.java 833 6 7 0
