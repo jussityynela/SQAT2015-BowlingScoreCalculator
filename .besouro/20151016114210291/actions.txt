@@ -413,3 +413,7 @@ RefactoringAction 1444991269350 TestBowlingScoreCalculator.java RENAME testPlay1
 RefactoringAction 1444991271213 TestBowlingScoreCalculator.java RENAME testPlay10FramesLastOneNotStrikeOrSpareTryToPlayF()=>void testPlay10FramesLastOneNotStrikeOrSpareTryToPlayOne() METHOD
 RefactoringAction 1444991463394 Frame.java ADD boolean lastFrame FIELD
 EditAction 1444991466101 Frame.java 1513 9 13 0
+RefactoringAction 1444991483427 Frame.java ADD boolean isLastFrame()/2 METHOD
+RefactoringAction 1444991488155 Frame.java RENAME isLastFrame()/2=>boolean setLastFrame() METHOD
+RefactoringAction 1444991499403 Frame.java RENAME setLastFrame()=>void setLastFrame(boolean) METHOD
+EditAction 1444991515927 Frame.java 1663 10 14 0

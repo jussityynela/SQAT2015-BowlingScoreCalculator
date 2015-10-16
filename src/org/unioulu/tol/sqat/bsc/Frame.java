@@ -49,6 +49,12 @@ public class Frame {
 	public int getSecondThrow(){
 		return secondThrow;
 	}
+	
+	//return whether this is the last frame of the match
+	public void setLastFrame(boolean value){
+		//to be implemented
+		lastFrame = value;
+	}
 
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
