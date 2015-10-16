@@ -329,3 +329,4 @@ UnitTestSessionAction 1444989983552 Rerun TestBowlingScoreCalculator (Failed Tes
 RefactoringAction 1444990137144 BowlingGame.java ADD int calculateTheBonus(int, int) METHOD
 RefactoringAction 1444990197667 BowlingGame.java RENAME calculateTheBonus(int, int)=>int calculateTheBonus(int) METHOD
 EditAction 1444990209931 BowlingGame.java 1224 6 8 0
+EditAction 1444990215165 BowlingGame.java 1225 6 8 0

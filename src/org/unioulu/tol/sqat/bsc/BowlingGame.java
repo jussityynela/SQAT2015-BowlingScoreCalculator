@@ -27,7 +27,7 @@ public class BowlingGame {
 		{
 			score += frames.get(i).score();
 			
-			score = calculateTheBonus( i);
+			score += calculateTheBonus( i);
 		}
 		return score;
 	}
