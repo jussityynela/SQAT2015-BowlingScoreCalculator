@@ -418,3 +418,4 @@ RefactoringAction 1444991488155 Frame.java RENAME isLastFrame()/2=>boolean setLa
 RefactoringAction 1444991499403 Frame.java RENAME setLastFrame()=>void setLastFrame(boolean) METHOD
 EditAction 1444991515927 Frame.java 1663 10 14 0
 EditAction 1444991533465 Frame.java 1616 10 14 0
+EditAction 1444991538663 Frame.java 1624 10 14 0
