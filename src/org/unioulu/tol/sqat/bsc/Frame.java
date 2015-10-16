@@ -28,12 +28,16 @@ public class Frame {
 		return false;
 	}
 	
-	//return whether a frame is a spare or not
-	public boolean isSpare(){
+	//returns the value of first throw
+	public int getFirstThrow(){
 		//to be implemented
-		if( firstThrow < 10 && score() == 10)
-			return true;
-		return false;
+		return firstThrow;
+	}
+	
+	//returns the value of first throw
+	public int getSecondThrow(){
+		//to be implemented
+		return firstThrow;
 	}
 
 	//return whether this is the last frame of the match
@@ -44,8 +48,6 @@ public class Frame {
 
 	//bonus throws
 	public int bonus(){
-		if(isSpare())
-			return 1;
 		return 0;
 	}
 }
