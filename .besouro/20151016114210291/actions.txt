@@ -268,3 +268,4 @@ UnitTestSessionAction 1444988578458 Rerun TestBowlingScoreCalculator (Failed Tes
 EditAction 1444988595649 Frame.java 1468 9 12 0
 EditAction 1444988600860 Frame.java 1503 9 13 0
 EditAction 1444988608706 Frame.java 1487 9 13 0
+EditAction 1444988627502 Frame.java 1483 9 13 0
