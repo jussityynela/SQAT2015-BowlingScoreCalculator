@@ -12,7 +12,10 @@ public class BowlingGame {
 	}
 	
 	public void addFrame(Frame frame){
+		
 		frames.add(frame);
+		if( frames.size() == 10)
+			frames.get(10).setLastFrame(true);
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
