@@ -365,3 +365,4 @@ CompilationAction 1444990707640 BowlingGame.java
 RefactoringAction 1444990719951 BowlingGame.java RENAME calculateTheBonus(int, Frame, Frame, Frame)=>int calculateTheBonus(int, Frame, Frame) METHOD
 EditAction 1444990720317 BowlingGame.java 1225 6 8 0
 EditAction 1444990830039 BowlingGame.java 1226 6 8 0
+EditAction 1444990847030 BowlingGame.java 1249 6 5 0
