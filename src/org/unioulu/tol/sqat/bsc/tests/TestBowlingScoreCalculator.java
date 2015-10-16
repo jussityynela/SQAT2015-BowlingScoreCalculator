@@ -9,7 +9,7 @@ import org.unioulu.tol.sqat.bsc.Frame;
 public class TestBowlingScoreCalculator {
 
 	@Test
-	public void testGetScoreAtTheBeginningOfTheGameZero() {
+	public void testGetScoreAtTheBeginningOfTheGameScoreZero() {
 	//
 	BowlingGame bowlingGame = new BowlingGame();	
 	 	assertEquals(0,bowlingGame.score());

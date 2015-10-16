@@ -94,3 +94,5 @@ RefactoringAction 1444986246572 TestBowlingScoreCalculator.java RENAME testPlayT
 CompilationAction 1444986247077 TestBowlingScoreCalculator.java
 RefactoringAction 1444986250097 TestBowlingScoreCalculator.java RENAME testPlayTwoFrameWithOneSpare15()=>void testPlayTwoFrameWithOneSpareScore15() METHOD
 EditAction 1444986250227 TestBowlingScoreCalculator.java 876 3 10 3
+RefactoringAction 1444986254985 TestBowlingScoreCalculator.java RENAME testGetScoreAtTheBeginningOfTheGameZero()=>void testGetScoreAtTheBeginningOfTheGameScorZero() METHOD
+EditAction 1444986255775 TestBowlingScoreCalculator.java 881 3 10 3
