@@ -5,15 +5,18 @@ public class Frame {
 	private int secondThrow;
 	
 	public Frame(int firstThrow, int secondThrow){
-		if( validateValues(firstThrow, secondThrow) )
-			throw Exception("Wrong values");
+		validateValues(firstThrow, secondThrow);
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
 	
-	private boolean validateValues(int firstThrow2, int secondThrow2) {
-		if(for)
-		return false;
+	private void validateValues(int firstThrow2, int secondThrow2) {
+		if( firstThrow2 > 10 || secondThrow2 > 10)
+			throw new RuntimeException("Too much pins knocked.");
+		else if( firstThrow2 > 10 || secondThrow2 > 10)
+			throw new RuntimeException("Too much pins knocked.");
+		else if( firstThrow2 + secondThrow2 >= 10)
+			throw new RuntimeException("Too much pins knocked on combined.");
 	}
 
 	//the score of a single frame
