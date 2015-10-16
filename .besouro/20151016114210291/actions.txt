@@ -330,3 +330,6 @@ RefactoringAction 1444990137144 BowlingGame.java ADD int calculateTheBonus(int, 
 RefactoringAction 1444990197667 BowlingGame.java RENAME calculateTheBonus(int, int)=>int calculateTheBonus(int) METHOD
 EditAction 1444990209931 BowlingGame.java 1224 6 8 0
 EditAction 1444990215165 BowlingGame.java 1225 6 8 0
+UnitTestCaseAction 1444990217185 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444990217186 Rerun TestBowlingScoreCalculator (Failed Tests first) OK
+EditAction 1444990234664 BowlingGame.java 1225 6 8 0
