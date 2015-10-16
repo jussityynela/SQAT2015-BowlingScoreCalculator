@@ -220,3 +220,6 @@ CompilationAction 1444988356737 Frame.java
 CompilationAction 1444988356738 Frame.java
 CompilationAction 1444988368968 Frame.java
 EditAction 1444988375386 Frame.java 1492 9 12 0
+UnitTestCaseAction 1444988377824 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444988377824 TestBowlingScoreCalculator FAIL
+EditAction 1444988401476 Frame.java 1491 9 12 0

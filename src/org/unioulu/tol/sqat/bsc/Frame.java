@@ -15,7 +15,7 @@ public class Frame {
 			throw new RuntimeException("Too much pins knocked.");
 		else if( firstThrow2 > 10 || secondThrow2 > 10)
 			throw new RuntimeException("Too much pins knocked.");
-		else if( firstThrow2 + secondThrow2 >= 10)
+		else if( firstThrow2 + secondThrow2 > 10)
 			throw new RuntimeException("Too much pins knocked on combined.");
 	}
 
