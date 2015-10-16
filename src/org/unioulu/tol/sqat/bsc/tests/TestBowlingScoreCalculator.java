@@ -16,7 +16,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testPlayOneFrameOfGame {
+	public void testPlayOneFrameOfGame() {
 	//
 	BowlingGame bowlingGame = new BowlingGame();
 	Frame frame = new Frame(10,0);

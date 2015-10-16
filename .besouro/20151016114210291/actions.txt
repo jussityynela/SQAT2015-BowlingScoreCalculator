@@ -64,3 +64,7 @@ CompilationAction 1444985664736 TestBowlingScoreCalculator.java
 CompilationAction 1444985664736 TestBowlingScoreCalculator.java
 CompilationAction 1444985664737 TestBowlingScoreCalculator.java
 EditAction 1444985667687 TestBowlingScoreCalculator.java 620 1 2 1
+CompilationAction 1444985667808 TestBowlingScoreCalculator.java
+CompilationAction 1444985667808 TestBowlingScoreCalculator.java
+CompilationAction 1444985667809 TestBowlingScoreCalculator.java
+EditAction 1444985916603 TestBowlingScoreCalculator.java 622 2 6 2
