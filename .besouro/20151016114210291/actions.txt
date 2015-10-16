@@ -343,3 +343,7 @@ EditAction 1444990439835 BowlingGame.java 1258 6 8 0
 EditAction 1444990460737 BowlingGame.java 1252 6 8 0
 EditAction 1444990475539 BowlingGame.java 1252 6 8 0
 EditAction 1444990488986 BowlingGame.java 1255 6 8 0
+UnitTestCaseAction 1444990504353 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444990504354 Rerun TestBowlingScoreCalculator (Failed Tests first) OK
+RefactoringAction 1444990526800 BowlingGame.java RENAME calculateTheBonus(int, Frame)=>int calculateTheBonus(int, Frame, Frame) METHOD
+EditAction 1444990530290 BowlingGame.java 1276 6 8 0
