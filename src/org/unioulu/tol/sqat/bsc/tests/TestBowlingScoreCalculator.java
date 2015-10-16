@@ -51,6 +51,7 @@ public class TestBowlingScoreCalculator {
 	//
 		BowlingGame bowlingGame = new BowlingGame();
 		create10FrameLastOneNotBonus(bowlingGame);
+		
 		assertEquals(26,bowlingGame.score());	 
 		
 	}
@@ -66,7 +67,7 @@ public class TestBowlingScoreCalculator {
 		bowlingGame.addFrame(new Frame(10,0));
 		bowlingGame.addFrame(new Frame(10,0));
 		bowlingGame.addFrame(new Frame(10,0));
-		bowlingGame.addFrame(new Frame(5,8));
+		bowlingGame.addFrame(new Frame(5,3));
 	}
 	
 	private void createPerfectGame( BowlingGame bowlingGame)

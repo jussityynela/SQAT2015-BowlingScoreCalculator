@@ -315,3 +315,6 @@ RefactoringAction 1444989393667 TestBowlingScoreCalculator.java RENAME create10F
 CompilationAction 1444989395037 TestBowlingScoreCalculator.java
 CompilationAction 1444989429360 TestBowlingScoreCalculator.java
 EditAction 1444989430049 TestBowlingScoreCalculator.java 2277 7 37 5
+UnitTestCaseAction 1444989464437 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444989464438 TestBowlingScoreCalculator FAIL
+EditAction 1444989490798 TestBowlingScoreCalculator.java 2281 7 37 5
