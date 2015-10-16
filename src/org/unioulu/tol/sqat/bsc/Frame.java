@@ -5,6 +5,7 @@ public class Frame {
 	private int secondThrow;
 	
 	public Frame(int firstThrow, int secondThrow){
+		if( validateValues(firstThrow, secondThrow) )
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
