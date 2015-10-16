@@ -22,11 +22,10 @@ public class BowlingGame {
 	public int score(){
 		//to be implemented
 		int score = 0;
-		for(Frame frame: frames)
+		
+		for(int i; i < frames.size(); i++)
 		{
-			if( frame.isSpare() ) {
-				score += frame.score();
-			}
+			
 		}
 		return score;
 	}
