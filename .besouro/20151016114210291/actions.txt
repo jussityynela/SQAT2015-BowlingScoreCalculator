@@ -253,3 +253,4 @@ RefactoringAction 1444988496395 TestBowlingScoreCalculator.java RENAME testPlayT
 RefactoringAction 1444988498403 TestBowlingScoreCalculator.java RENAME testPlayTwoFrameWithFirstStrike26()=>void testPlayTwoFrameWithFirstStrikeScore26() METHOD
 EditAction 1444988498915 TestBowlingScoreCalculator.java 1238 4 18 4
 EditAction 1444988501698 TestBowlingScoreCalculator.java 1238 4 18 4
+EditAction 1444988506119 TestBowlingScoreCalculator.java 1239 4 18 4

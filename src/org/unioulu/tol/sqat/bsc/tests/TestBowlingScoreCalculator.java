@@ -39,7 +39,7 @@ public class TestBowlingScoreCalculator {
 	public void testPlayTwoFrameWithFirstStrikeScore26() {
 	//
 		BowlingGame bowlingGame = new BowlingGame();
-		Frame frame = new Frame(5,5);
+		Frame frame = new Frame(10,0);
 		bowlingGame.addFrame(frame) ;
 		Frame frame2 = new Frame(5,3);
 		bowlingGame.addFrame(frame2) ;
