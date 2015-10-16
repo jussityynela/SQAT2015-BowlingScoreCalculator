@@ -304,3 +304,14 @@ RefactoringAction 1444989353856 TestBowlingScoreCalculator.java RENAME testPlay(
 RefactoringAction 1444989355555 TestBowlingScoreCalculator.java RENAME testPlay10Frames()=>void testPlay10FramesLastOne() METHOD
 RefactoringAction 1444989357753 TestBowlingScoreCalculator.java RENAME testPlay10FramesLastOne()=>void testPlay10FramesLastOneNotBonus() METHOD
 EditAction 1444989357845 TestBowlingScoreCalculator.java 1857 6 30 5
+RefactoringAction 1444989374228 TestBowlingScoreCalculator.java RENAME testPlay10FramesLastOneNotBonus()=>void testPlay10FramesLastOneNotStrike() METHOD
+RefactoringAction 1444989374332 TestBowlingScoreCalculator.java RENAME testPlay10FramesLastOneNotStrike()=>void testPlay10FramesLastOneNotStrikeO() METHOD
+RefactoringAction 1444989374991 TestBowlingScoreCalculator.java RENAME testPlay10FramesLastOneNotStrikeO()=>void testPlay10FramesLastOneNotStrikeOr() METHOD
+RefactoringAction 1444989377123 TestBowlingScoreCalculator.java RENAME testPlay10FramesLastOneNotStrikeOr()=>void testPlay10FramesLastOneNotStrikeOrSpare() METHOD
+RefactoringAction 1444989383887 TestBowlingScoreCalculator.java ADD void createPerfectGame(BowlingGame)/2 METHOD
+CompilationAction 1444989384428 TestBowlingScoreCalculator.java
+RefactoringAction 1444989391627 TestBowlingScoreCalculator.java RENAME createPerfectGame(BowlingGame)/2=>void create10FrameLaston(BowlingGame) METHOD
+RefactoringAction 1444989393667 TestBowlingScoreCalculator.java RENAME create10FrameLaston(BowlingGame)=>void create10FrameLastOneNot(BowlingGame) METHOD
+CompilationAction 1444989395037 TestBowlingScoreCalculator.java
+CompilationAction 1444989429360 TestBowlingScoreCalculator.java
+EditAction 1444989430049 TestBowlingScoreCalculator.java 2277 7 37 5
