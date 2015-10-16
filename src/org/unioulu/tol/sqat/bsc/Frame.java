@@ -50,9 +50,8 @@ public class Frame {
 		return secondThrow;
 	}
 	
-	//return whether this is the last frame of the match
+	//set value to be last frame
 	public void setLastFrame(boolean value){
-		//to be implemented
 		lastFrame = value;
 	}
 
