@@ -32,7 +32,7 @@ public class TestBowlingScoreCalculator {
 		bowlingGame.addFrame(frame) ;
 		Frame frame2 = new Frame(5,0);
 		bowlingGame.addFrame(frame) ;
-		assertEquals(10,bowlingGame.score());	 
+		assertEquals(15,bowlingGame.score());	 
 	}
 
 }

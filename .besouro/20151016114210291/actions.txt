@@ -106,3 +106,4 @@ EditAction 1444986279863 TestBowlingScoreCalculator.java 934 3 12 3
 CompilationAction 1444986280377 TestBowlingScoreCalculator.java
 EditAction 1444986288397 TestBowlingScoreCalculator.java 935 3 12 3
 EditAction 1444986313714 TestBowlingScoreCalculator.java 935 3 12 3
+EditAction 1444986319531 TestBowlingScoreCalculator.java 935 3 12 3
