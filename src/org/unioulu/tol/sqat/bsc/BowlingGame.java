@@ -24,7 +24,7 @@ public class BowlingGame {
 		int score = 0;
 		for(Frame frame: frames)
 		{
-			if()
+			
 			score += frame.score();
 		}
 		return score;
