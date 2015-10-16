@@ -9,7 +9,6 @@ public class BowlingGame {
 	private Frame bonus;
 	
 	public BowlingGame(){
-		score = 0;
 	}
 	
 	public void addFrame(Frame frame){
@@ -22,6 +21,7 @@ public class BowlingGame {
 	
 	public int score(){
 		//to be implemented
+		int score = 0;
 		for(Frame frame: frames)
 		{
 			score += frame.score();
