@@ -3,6 +3,7 @@ package org.unioulu.tol.sqat.bsc;
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	private boolean lastFrame; 
 	
 	public Frame(int firstThrow, int secondThrow){
 		validateValues(firstThrow, secondThrow);

@@ -81,9 +81,17 @@ public class TestBowlingScoreCalculator {
 		BowlingGame bowlingGame = new BowlingGame();
 		create10FrameLastOneNotBonus(bowlingGame);
 		
-		assertEquals(261,bowlingGame.score());	 
-		
+		assertEquals(261,bowlingGame.score());	
 	}
+	
+	@Test
+	public void testPlay10FramesLastOneNotStrikeOrSpareTryToPlayOneMoreFrame() {
+	//
+		BowlingGame bowlingGame = new BowlingGame();
+		create10FrameLastOneNotBonus(bowlingGame);
+		bowlingGame.addFrame(new Frame(10,0));
+	}
+
 
 	private void create10FrameLastOneNotBonus( BowlingGame bowlingGame)
 	{
