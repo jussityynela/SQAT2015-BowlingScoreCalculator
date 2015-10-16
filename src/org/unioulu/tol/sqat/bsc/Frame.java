@@ -6,10 +6,16 @@ public class Frame {
 	
 	public Frame(int firstThrow, int secondThrow){
 		if( validateValues(firstThrow, secondThrow) )
+			throw Exception("Wrong values");
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
 	
+	private boolean validateValues(int firstThrow2, int secondThrow2) {
+		if(for)
+		return false;
+	}
+
 	//the score of a single frame
 	public int score(){
 		return firstThrow+secondThrow;

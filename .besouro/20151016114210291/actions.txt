@@ -190,3 +190,6 @@ UnitTestCaseAction 1444987893846 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444987893846 TestBowlingScoreCalculator OK
 EditAction 1444987908523 BowlingGame.java 887 5 5 0
 EditAction 1444988104499 Frame.java 1095 8 10 0
+CompilationAction 1444988104772 Frame.java
+RefactoringAction 1444988108128 Frame.java ADD boolean validateValues(int, int) METHOD
+EditAction 1444988129931 Frame.java 1236 9 11 0
