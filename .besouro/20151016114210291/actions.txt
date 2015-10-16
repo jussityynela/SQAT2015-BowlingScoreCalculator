@@ -128,3 +128,5 @@ RefactoringAction 1444986525579 Frame.java REMOVE frame FIELD
 RefactoringAction 1444986528609 Frame.java ADD int secondThrow/2 FIELD
 RefactoringAction 1444986532672 Frame.java REMOVE secondThrow/2 FIELD
 EditAction 1444986661631 Frame.java 833 6 7 0
+CompilationAction 1444986661725 Frame.java
+EditAction 1444986662633 Frame.java 850 6 8 0

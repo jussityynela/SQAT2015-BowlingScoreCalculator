@@ -25,6 +25,7 @@ public class Frame {
 		//to be implemented
 		if( firstThrow < 10 && score() == 10)
 			return true;
+		return false;
 	}
 
 	//return whether this is the last frame of the match
