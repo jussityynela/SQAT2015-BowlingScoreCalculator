@@ -269,3 +269,23 @@ EditAction 1444988595649 Frame.java 1468 9 12 0
 EditAction 1444988600860 Frame.java 1503 9 13 0
 EditAction 1444988608706 Frame.java 1487 9 13 0
 EditAction 1444988627502 Frame.java 1483 9 13 0
+UnitTestCaseAction 1444988629941 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444988629941 Rerun TestBowlingScoreCalculator (Failed Tests first) FAIL
+UnitTestCaseAction 1444988735901 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444988735902 Rerun TestBowlingScoreCalculator (Failed Tests first) FAIL
+UnitTestCaseAction 1444988823298 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444988823299 TestBowlingScoreCalculator FAIL
+UnitTestCaseAction 1444988925596 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444988925597 TestBowlingScoreCalculator (Failed Tests first) FAIL
+CompilationAction 1444988963823 BowlingGame.java
+CompilationAction 1444988987716 BowlingGame.java
+UnitTestCaseAction 1444989006798 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444989006799 Rerun org.unioulu.tol.sqat.bsc.tests.TestBowlingScoreCalculator OK
+RefactoringAction 1444989176079 TestBowlingScoreCalculator.java ADD void testPlayTwoFrameWithFirstStrikeScore26()/2 METHOD
+RefactoringAction 1444989183328 TestBowlingScoreCalculator.java RENAME testPlayTwoFrameWithFirstStrikeScore26()/2=>void testPlayComplete() METHOD
+RefactoringAction 1444989184285 TestBowlingScoreCalculator.java RENAME testPlayComplete()=>void testPlayCompleteGame() METHOD
+RefactoringAction 1444989185184 TestBowlingScoreCalculator.java RENAME testPlayCompleteGame()=>void testPlayCompleteGam() METHOD
+RefactoringAction 1444989185267 TestBowlingScoreCalculator.java RENAME testPlayCompleteGam()=>void testPlayCompleteG() METHOD
+RefactoringAction 1444989187274 TestBowlingScoreCalculator.java RENAME testPlayCompleteG()=>void testPlayPer() METHOD
+RefactoringAction 1444989189318 TestBowlingScoreCalculator.java RENAME testPlayPer()=>void testPlayPerfectGame() METHOD
+EditAction 1444989190156 TestBowlingScoreCalculator.java 1523 5 24 5

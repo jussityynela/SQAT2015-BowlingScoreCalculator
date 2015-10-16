@@ -45,5 +45,16 @@ public class TestBowlingScoreCalculator {
 		bowlingGame.addFrame(frame2) ;
 		assertEquals(26,bowlingGame.score());	 
 	}
+	
+	@Test
+	public void testPlayPerfectGame() {
+	//
+		BowlingGame bowlingGame = new BowlingGame();
+		Frame frame = new Frame(10,0);
+		bowlingGame.addFrame(frame) ;
+		Frame frame2 = new Frame(5,3);
+		bowlingGame.addFrame(frame2) ;
+		assertEquals(26,bowlingGame.score());	 
+	}
 
 }

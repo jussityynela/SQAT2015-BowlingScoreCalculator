@@ -31,9 +31,9 @@ public class BowlingGame {
 			{ //if previous was spare add bonus from this throw
 				Frame previous = frames.get(i-1);
 				if( previous.isSpare() )
-					score += previous.getFirstThrow();
+					score += frames.get(i).getFirstThrow();
 				else if( previous.isStrike() )
-					score += previous.getFirstThrow() + previous.getSecondThrow();
+					score += frames.get(i).getFirstThrow() + frames.get(i).getSecondThrow();
 			}
 		}
 		return score;
