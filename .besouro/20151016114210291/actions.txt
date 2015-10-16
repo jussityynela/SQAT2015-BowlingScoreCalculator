@@ -289,3 +289,5 @@ RefactoringAction 1444989185267 TestBowlingScoreCalculator.java RENAME testPlayC
 RefactoringAction 1444989187274 TestBowlingScoreCalculator.java RENAME testPlayCompleteG()=>void testPlayPer() METHOD
 RefactoringAction 1444989189318 TestBowlingScoreCalculator.java RENAME testPlayPer()=>void testPlayPerfectGame() METHOD
 EditAction 1444989190156 TestBowlingScoreCalculator.java 1523 5 24 5
+RefactoringAction 1444989219145 TestBowlingScoreCalculator.java RENAME testPlayPerfectGame()=>void testPlayPerfectGameScore() METHOD
+EditAction 1444989220326 TestBowlingScoreCalculator.java 1531 5 24 5
