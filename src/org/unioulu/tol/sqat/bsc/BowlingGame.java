@@ -40,7 +40,7 @@ public class BowlingGame {
 				bonus += currentFrame.getFirstThrow();
 			else if( previous.isStrike() )
 				if (currentFrame.isStrike() && frames.size()>=i+1 )
-					bonus += currentFrame.getFirstThrow() + currentFrame.getFirstThrow();
+					bonus += currentFrame.getFirstThrow() + frames.get(i+1).getFirstThrow();
 				else
 					bonus += frames.get(i).score();
 		}
