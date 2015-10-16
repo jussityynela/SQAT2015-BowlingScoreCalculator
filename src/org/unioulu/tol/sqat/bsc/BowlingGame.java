@@ -25,7 +25,7 @@ public class BowlingGame {
 		
 		for(int i=0; i < frames.size(); i++)
 		{
-			score += frames.get(i).score();
+			score += frames.get(i).score(); 
 			//if not the first one count the bonus
 			if(i>0)
 				score += calculateTheBonus( i, frames.get(i), frames.get(i-1));
