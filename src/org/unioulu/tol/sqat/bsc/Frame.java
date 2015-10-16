@@ -32,7 +32,6 @@ public class Frame {
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
-		//to be implemented
 		if( firstThrow < 10 && score() == 10)
 			return true;
 		return false;
