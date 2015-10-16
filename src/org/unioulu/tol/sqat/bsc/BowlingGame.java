@@ -35,15 +35,13 @@ public class BowlingGame {
 
 	private int calculateTheBonus(int i, Frame currentFrame, Frame previous) {
 		int bonus = 0;
-		//if previous was spare add bonus from this throw
-			Frame previous = frames.get(i-1);
-			if( previous.isSpare() )
+		if( previous.isSpare() )
 				bonus += currentFrame.getFirstThrow();
-			else if( previous.isStrike() )
-				if (currentFrame.isStrike() && frames.size()>=i+1 )
-					bonus += currentFrame.getFirstThrow() + frames.get(i+1).getFirstThrow();
-				else
-					bonus += frames.get(i).score();
+		else if( previous.isStrike() )
+			if (currentFrame.isStrike() && frames.size()>=i+1 )
+				bonus += currentFrame.getFirstThrow() + frames.get(i+1).getFirstThrow();
+			else
+				bonus += frames.get(i).score();
 		return bonus;
 	}
 	
