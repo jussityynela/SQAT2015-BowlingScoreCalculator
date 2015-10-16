@@ -8,12 +8,10 @@ import org.unioulu.tol.sqat.bsc.BowlingGame;
 public class TestBowlingScoreCalculator {
 
 	@Test
-	public void testGetScoreAtTheBeginningOfTheGame() {
-		//
-	BowlingGame bowlingGame = new BowlingGame();
-		
-		
-	 assertEquals()
+	public void testGetScoreAtTheBeginningOfTheGameZero() {
+	//
+	BowlingGame bowlingGame = new BowlingGame();	
+	 assertEquals(0,bowlingGame.score());
 	}
 
 }

@@ -9,3 +9,12 @@ RefactoringAction 1444985148989 TestBowlingScoreCalculator.java RENAME testGetSc
 RefactoringAction 1444985153184 TestBowlingScoreCalculator.java RENAME testGetScoreAtTheBe()=>void testGetScoreAtTheBeginningOfTheGame() METHOD
 RefactoringAction 1444985162849 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.BowlingGame IMPORT
 EditAction 1444985213694 TestBowlingScoreCalculator.java 347 1 0 0
+CompilationAction 1444985214118 TestBowlingScoreCalculator.java
+CompilationAction 1444985214119 TestBowlingScoreCalculator.java
+CompilationAction 1444985267293 TestBowlingScoreCalculator.java
+CompilationAction 1444985267294 TestBowlingScoreCalculator.java
+UnitTestCaseAction 1444985267781 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444985267785 TestBowlingScoreCalculator OK
+RefactoringAction 1444985279015 TestBowlingScoreCalculator.java RENAME testGetScoreAtTheBeginningOfTheGame()=>void testGetScoreAtTheBeginningOfTheGameZ() METHOD
+RefactoringAction 1444985280002 TestBowlingScoreCalculator.java RENAME testGetScoreAtTheBeginningOfTheGameZ()=>void testGetScoreAtTheBeginningOfTheGameZero() METHOD
+EditAction 1444985280111 TestBowlingScoreCalculator.java 365 1 2 1
