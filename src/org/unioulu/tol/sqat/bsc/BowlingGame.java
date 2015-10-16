@@ -22,7 +22,7 @@ public class BowlingGame {
 		//to be implemented
 		for(Frame frame: frames)
 		{
-			
+			frames.
 		}
 		return 0;
 	}
