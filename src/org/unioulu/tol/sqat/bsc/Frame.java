@@ -37,7 +37,7 @@ public class Frame {
 	//returns the value of first throw
 	public int getSecondThrow(){
 		//to be implemented
-		return firstThrow;
+		return secondThrow;
 	}
 
 	//return whether this is the last frame of the match
