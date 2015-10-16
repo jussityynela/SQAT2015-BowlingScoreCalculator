@@ -30,13 +30,12 @@ public class Frame {
 	
 	//returns the value of first throw
 	public int getFirstThrow(){
-		//to be implemented
+
 		return firstThrow;
 	}
 	
 	//returns the value of first throw
 	public int getSecondThrow(){
-		//to be implemented
 		return secondThrow;
 	}
 
@@ -48,6 +47,7 @@ public class Frame {
 
 	//bonus throws
 	public int bonus(){
+		//to be implemented
 		return 0;
 	}
 }
