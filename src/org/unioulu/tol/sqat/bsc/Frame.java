@@ -36,7 +36,7 @@ public class Frame {
 
 	//bonus throws
 	public int bonus(){
-		if(isSpare)
+		if(isSpare())
 			return 5;
 		return 0;
 	}
