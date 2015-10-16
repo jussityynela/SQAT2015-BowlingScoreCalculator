@@ -32,6 +32,8 @@ public class BowlingGame {
 				Frame previous = frames.get(i-1);
 				if( previous.isSpare() )
 					score += previous.getFirstThrow();
+				else if( previous.isSpare() )
+					score += previous.getFirstThrow() + previous.getSecondThrow();
 			}
 		}
 		return score;
