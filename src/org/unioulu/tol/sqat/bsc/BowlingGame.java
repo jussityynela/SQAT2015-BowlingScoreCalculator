@@ -20,6 +20,10 @@ public class BowlingGame {
 	
 	public int score(){
 		//to be implemented
+		for(Frame frame: frames)
+		{
+			
+		}
 		return 0;
 	}
 	
