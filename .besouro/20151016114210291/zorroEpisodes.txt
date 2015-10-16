@@ -6,3 +6,5 @@
 1444987893846 production 1 1479 true
 1444988403377 refactoring 2A 509 true
 1444989006799 test-first 1 603 true
+1444989922173 test-addition 2 915 true
+1444989983552 regression 1 61 true

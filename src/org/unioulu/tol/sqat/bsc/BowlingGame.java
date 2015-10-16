@@ -27,14 +27,23 @@ public class BowlingGame {
 		{
 			score += frames.get(i).score();
 			
-			if(i>0)
-			{ //if previous was spare add bonus from this throw
-				Frame previous = frames.get(i-1);
-				if( previous.isSpare() )
-					score += frames.get(i).getFirstThrow();
-				else if( previous.isStrike() )
-					score += frames.get(i).getFirstThrow() + frames.get(i).getSecondThrow();
-			}
+			score = calculateTheBonus( i);
+		}
+		return score;
+	}
+
+	private int calculateTheBonus(int i) {
+		int score = 0;
+		if(i>0)
+		{ //if previous was spare add bonus from this throw
+			Frame previous = frames.get(i-1);
+			if( previous.isSpare() )
+				score += frames.get(i).getFirstThrow();
+			else if( previous.isStrike() )
+				if (frames.get(i).isStrike() && frames.size()>=i+1 )
+					score += frames.get(i).getFirstThrow() + frames.get(i+1).getFirstThrow();
+				else
+					score += frames.get(i).score();
 		}
 		return score;
 	}
