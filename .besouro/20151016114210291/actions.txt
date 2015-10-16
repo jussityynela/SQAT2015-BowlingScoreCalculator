@@ -291,3 +291,16 @@ RefactoringAction 1444989189318 TestBowlingScoreCalculator.java RENAME testPlayP
 EditAction 1444989190156 TestBowlingScoreCalculator.java 1523 5 24 5
 RefactoringAction 1444989219145 TestBowlingScoreCalculator.java RENAME testPlayPerfectGame()=>void testPlayPerfectGameScore() METHOD
 EditAction 1444989220326 TestBowlingScoreCalculator.java 1531 5 24 5
+RefactoringAction 1444989259357 TestBowlingScoreCalculator.java ADD void BowlingGame FIELD
+RefactoringAction 1444989260451 TestBowlingScoreCalculator.java RENAME BowlingGame=>void BowlingGam FIELD
+RefactoringAction 1444989260531 TestBowlingScoreCalculator.java RENAME BowlingGam=>void BowlingG FIELD
+RefactoringAction 1444989262446 TestBowlingScoreCalculator.java RENAME BowlingG=>void create FIELD
+RefactoringAction 1444989266974 TestBowlingScoreCalculator.java RENAME create=>void createPerfectGame FIELD
+RefactoringAction 1444989267992 TestBowlingScoreCalculator.java RENAME createPerfectGame=>void createPerfectGame() METHOD
+RefactoringAction 1444989278472 TestBowlingScoreCalculator.java RENAME createPerfectGame()=>void createPerfectGame(BowlingGame) METHOD
+RefactoringAction 1444989350016 TestBowlingScoreCalculator.java RENAME testPlayPerfectGameScore300()=>void testPlayPerfe() METHOD
+RefactoringAction 1444989351716 TestBowlingScoreCalculator.java RENAME testPlayPerfe()=>void testPlay() METHOD
+RefactoringAction 1444989353856 TestBowlingScoreCalculator.java RENAME testPlay()=>void testPlay10Frames() METHOD
+RefactoringAction 1444989355555 TestBowlingScoreCalculator.java RENAME testPlay10Frames()=>void testPlay10FramesLastOne() METHOD
+RefactoringAction 1444989357753 TestBowlingScoreCalculator.java RENAME testPlay10FramesLastOne()=>void testPlay10FramesLastOneNotBonus() METHOD
+EditAction 1444989357845 TestBowlingScoreCalculator.java 1857 6 30 5
