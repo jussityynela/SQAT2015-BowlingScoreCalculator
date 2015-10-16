@@ -47,7 +47,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testPlayThreeFramesWithFirstTwoStrikeScore23() {
+	public void testPlayThreeFramesWithFirstTwoStrikeScore45() {
 	//
 		BowlingGame bowlingGame = new BowlingGame();
 		Frame frame = new Frame(10,0);
