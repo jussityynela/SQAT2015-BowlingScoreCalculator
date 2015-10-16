@@ -82,3 +82,15 @@ UnitTestCaseAction 1444986095443 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444986095443 TestBowlingScoreCalculator OK
 EditAction 1444986151477 Frame.java 792 6 7 0
 EditAction 1444986210247 TestBowlingScoreCalculator.java 882 3 10 3
+CompilationAction 1444986210359 TestBowlingScoreCalculator.java
+RefactoringAction 1444986223130 TestBowlingScoreCalculator.java RENAME testPlayOneFrameOfGameSeeThatFrameIsAdded()/2=>void testPlayTwoFrameOfThe() METHOD
+RefactoringAction 1444986226094 TestBowlingScoreCalculator.java RENAME testPlayTwoFrameOfThe()=>void testPlayTwoFrame() METHOD
+RefactoringAction 1444986229310 TestBowlingScoreCalculator.java RENAME testPlayTwoFrame()=>void testPlayTwoFrameWithONe() METHOD
+RefactoringAction 1444986229382 TestBowlingScoreCalculator.java RENAME testPlayTwoFrameWithONe()=>void testPlayTwoFrameWithON() METHOD
+RefactoringAction 1444986231650 TestBowlingScoreCalculator.java RENAME testPlayTwoFrameWithON()=>void testPlayTwoFrameWithOneSpaer() METHOD
+RefactoringAction 1444986233049 TestBowlingScoreCalculator.java RENAME testPlayTwoFrameWithOneSpaer()=>void testPlayTwoFrameWithOneSpare() METHOD
+RefactoringAction 1444986246566 TestBowlingScoreCalculator.java RENAME testPlayTwoFrameWithOneSpare()=>void testPlayTwoFrameWithOneSpare15() METHOD
+RefactoringAction 1444986246572 TestBowlingScoreCalculator.java RENAME testPlayTwoFrameWithOneSpare()=>void testPlayTwoFrameWithOneSpare15() METHOD
+CompilationAction 1444986247077 TestBowlingScoreCalculator.java
+RefactoringAction 1444986250097 TestBowlingScoreCalculator.java RENAME testPlayTwoFrameWithOneSpare15()=>void testPlayTwoFrameWithOneSpareScore15() METHOD
+EditAction 1444986250227 TestBowlingScoreCalculator.java 876 3 10 3
