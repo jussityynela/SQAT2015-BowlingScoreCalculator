@@ -101,3 +101,5 @@ RefactoringAction 1444986264747 TestBowlingScoreCalculator.java RENAME testPlayO
 EditAction 1444986267014 TestBowlingScoreCalculator.java 869 3 10 3
 EditAction 1444986273044 TestBowlingScoreCalculator.java 868 3 10 3
 EditAction 1444986279014 TestBowlingScoreCalculator.java 936 3 12 3
+CompilationAction 1444986279139 TestBowlingScoreCalculator.java
+EditAction 1444986279863 TestBowlingScoreCalculator.java 934 3 12 3
