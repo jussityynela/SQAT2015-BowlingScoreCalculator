@@ -9,7 +9,9 @@ public class BowlingGame {
 	private Frame bonus;
 	private int score;
 	
-	public BowlingGame(){}
+	public BowlingGame(){
+		score = 0;
+	}
 	
 	public void addFrame(Frame frame){
 		//to be implemented
