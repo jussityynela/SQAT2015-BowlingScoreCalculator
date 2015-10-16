@@ -368,3 +368,17 @@ EditAction 1444990830039 BowlingGame.java 1226 6 8 0
 EditAction 1444990847030 BowlingGame.java 1249 6 5 0
 CompilationAction 1444990847336 BowlingGame.java
 EditAction 1444990851970 BowlingGame.java 1257 6 8 0
+CompilationAction 1444990852285 BowlingGame.java
+CompilationAction 1444990880335 BowlingGame.java
+UnitTestCaseAction 1444990922340 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444990922341 Rerun TestBowlingScoreCalculator (Failed Tests first) OK
+RefactoringAction 1444990933035 TestBowlingScoreCalculator.java ADD void testPlayTwoFrameWithFirstStrikeScore26()/2 METHOD
+RefactoringAction 1444990936763 TestBowlingScoreCalculator.java RENAME testPlayTwoFrameWithFirstStrikeScore26()/2=>void testPlayThreeFrameWithFirstStrikeScore26() METHOD
+RefactoringAction 1444990938464 TestBowlingScoreCalculator.java RENAME testPlayThreeFrameWithFirstStrikeScore26()=>void testPlayThreeFramesWithFirstStrikeScore26() METHOD
+RefactoringAction 1444990947982 TestBowlingScoreCalculator.java RENAME testPlayThreeFramesWithFirstStrikeScore26()=>void testPlayThreeFramesWithFirstTStrikeScore26() METHOD
+RefactoringAction 1444990948055 TestBowlingScoreCalculator.java RENAME testPlayThreeFramesWithFirstTStrikeScore26()=>void testPlayThreeFramesWithFirstTwStrikeScore26() METHOD
+RefactoringAction 1444990948700 TestBowlingScoreCalculator.java RENAME testPlayThreeFramesWithFirstTwStrikeScore26()=>void testPlayThreeFramesWithFirstTwoStrikeScore26() METHOD
+RefactoringAction 1444990972856 TestBowlingScoreCalculator.java RENAME testPlayThreeFramesWithFirstTwoStrikeScore26()=>void testPlayThreeFramesWithFirstTwoStrikeScore23() METHOD
+CompilationAction 1444990981070 TestBowlingScoreCalculator.java
+CompilationAction 1444990985371 TestBowlingScoreCalculator.java
+EditAction 1444991006858 TestBowlingScoreCalculator.java 2726 8 45 6

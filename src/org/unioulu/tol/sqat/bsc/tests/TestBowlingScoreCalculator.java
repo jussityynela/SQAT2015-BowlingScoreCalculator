@@ -47,6 +47,20 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
+	public void testPlayThreeFramesWithFirstTwoStrikeScore23() {
+	//
+		BowlingGame bowlingGame = new BowlingGame();
+		Frame frame = new Frame(10,0);
+		bowlingGame.addFrame(frame) ;
+		Frame frame2 = new Frame(10,0);
+		bowlingGame.addFrame(frame2) ;
+		Frame frame3 = new Frame(5,3);
+		bowlingGame.addFrame(frame3) ;
+		
+		assertEquals(26,bowlingGame.score());	 
+	}
+	
+	@Test
 	public void testPlay10FramesLastOneNotStrikeOrSpare() {
 	//
 		BowlingGame bowlingGame = new BowlingGame();
